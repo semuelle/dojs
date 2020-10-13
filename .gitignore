@@ -2,3 +2,4 @@ node_modules
 .openzeppelin
 build
 networks.js
+.mnemonic
