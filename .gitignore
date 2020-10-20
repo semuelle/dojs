@@ -3,3 +3,5 @@ node_modules
 build
 networks.js
 .mnemonic
+app/node_modules/
+test/

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Decentralized Autonomous Journal | Demo Frontend</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 12px;
+    }
+  </style>
+  <body>
+    <h1>Decentralized Autonomous Journal | Demo Frontend</h1>
+    <p>
+      This journal is <strong class="open">loading...</strong> open to the
+      public for submission.
+    </p>
+
+    <h1>Submit Article</h1>
+
+    <label for="title">Title:</label>
+    <input type="text" id="title" placeholder="Title of your article" />
+
+    <label for="author">Your on-chain identity:</label>
+    <input
+      type="text"
+      id="author"
+      placeholder="e.g. 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"
+    />
+
+    <button onclick="App.submitArticle()">Submit</button>
+
+    <p id="status"></p>
+    <p>
+      <strong>Hint:</strong> open the browser developer console to view any
+      errors and warnings.
+    </p>
+    <script src="index.js"></script>
+  </body>
+</html>
