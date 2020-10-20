@@ -89,5 +89,5 @@ contract DAJ is
         return msg.sender;
     }
 
-    function submitArticle() {}
+    function submitArticle() public {}
 }

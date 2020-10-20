@@ -12,6 +12,8 @@
 
 **Paymaster**: 0xd8c85D7E9264f4019944686Ff1C53EC7854FbF10
 
+**Example DAJ**: 0x0Cc65D063284583cB543616EeC852F59F5ac7bBe
+
 # Overview
 
 ![](doc/overview.png)
